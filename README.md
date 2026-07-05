@@ -62,7 +62,7 @@ bottom.
 ## Running the Streamlit app
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 No `.env` file needed here — paste your `GROQ_API_KEY` and `TAVILY_API_KEY`
