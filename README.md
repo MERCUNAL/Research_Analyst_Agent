@@ -75,6 +75,7 @@ the final report rendered at the bottom.
 
 - The planner is currently capped at **2 subtopics** — adjust the prompt in
   `planner()` (in `agent_graph.py` or the notebook) if you want more.
+- The researcher agent has been limited to 100 words to avoid hitting rate limit, if needed, remove the constraint for longer result
 - `add_node(..., input_schema=...)` is used for the `researcher` node's
   smaller input schema. If you're on an older `langgraph` version, this
   argument may instead be named `input=`.
