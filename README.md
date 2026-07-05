@@ -34,9 +34,8 @@ orchestrator → planner --(fan out, one per subtopic)--> researcher → combine
 
 | File | Purpose |
 |---|---|
-| `agent.ipynb` | Original notebook version of the pipeline — good for exploring/debugging step by step. |
-| `agent_graph.py` | The pipeline logic, refactored into a `build_graph(groq_key, tavily_key)` function so it can be imported. |
-| `streamlit_app.py` | A Streamlit UI on top of `agent_graph.py` — enter API keys, type a topic, watch the pipeline run live, read the final report. |
+| `agent.py` | The pipeline logic, refactored into a `build_graph(groq_key, tavily_key)` function so it can be imported. |
+| `app.py` | A Streamlit UI on top of `agent_graph.py` — enter API keys, type a topic, watch the pipeline run live, read the final report. |
 | `requirements.txt` | Python dependencies. |
 
 ## Setup
